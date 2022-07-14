@@ -4,10 +4,12 @@ var body = document.querySelector('body')
 
 var heading = document.createElement('h2')
 heading.innerHTML= " card design "
+heading.style=`color: brown`
 
 var image = document.createElement('img')
 image.src="img2.jpeg" 
-image.style =' maxwidth:auto  '
+image.style =` maxwidth:auto 
+               maxheight : auto `
               
 
 
@@ -22,13 +24,21 @@ para.style= 'cursor:pointer '
 var btn = document.createElement('btn')
 btn.innerHTML= " click me..... "
 
-btn.style ='border: 2px solid black'
+btn.style =`border: 2px dotted black;
+            buttom : 10px ;
+            cursor: pointer;
+            background: white;
+                 `
             
               
 
 var container= document.createElement('div')
-container.style= 'border: 2px solid black '
-                 'width:500px'
+container.style= `border: 2px solid black ;
+                  width: 500px;
+                  background-color: yellow;
+                  padding : 50px ;
+                 
+                 `
 
 
 body.appendChild(container)
